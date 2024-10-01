@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\mayur\OneDrive\Desktop\Bearandbullz\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\AboutUsController1.java
 C:\Users\mayur\OneDrive\Desktop\Bearandbullz\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\StockPage.java
 C:\Users\mayur\OneDrive\Desktop\Bearandbullz\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\LogInSignUpController.java
@@ -18,3 +19,25 @@ C:\Users\mayur\OneDrive\Desktop\Bearandbullz\Javafx-dummy-stock-market\Bear&Bull
 C:\Users\mayur\OneDrive\Desktop\Bearandbullz\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\LogInSignUp.java
 C:\Users\mayur\OneDrive\Desktop\Bearandbullz\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\donateus.java
 C:\Users\mayur\OneDrive\Desktop\Bearandbullz\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\SignupPage.java
+=======
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\AboutUsController1.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\StockPage.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\UsersDB.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\FXMLDocumentController.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\mainpanelcontroller.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mongodb\MongoClient.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\LogInSignUpController.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\SignupPage.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\donateus.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\UserAuthDB.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\mainpanel.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\LogInSignUp.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\SignupController.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\HomePageController.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\StocksDB.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\StockPageController.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\AboutUsMain.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\leaderboardController.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\JavaFXPage.java
+C:\Users\Anshu\OneDrive\Documents\Desktop\BEAR&BULLZ\Javafx-dummy-stock-market\Bear&Bullz1\BearBullz\src\main\java\com\mycompany\bearbullz\leaderboard.java
+>>>>>>> 2989e63126e6443becdb5b7acddb869dd363b322
