@@ -4,6 +4,7 @@
  */
 package com.mycompany.bearbullz;
 
+import java.io.IOException;
 import javafx.fxml.FXML;
 import javafx.scene.control.ListView;
 import javafx.scene.input.MouseEvent;
@@ -14,9 +15,15 @@ import javafx.util.Callback;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.control.Label;
+import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 /**
  *
  * @author mayur
@@ -26,8 +33,15 @@ import javafx.scene.layout.VBox;
 public class PortfolioController {
     
     String Gmail;
-    public void setGmail(String Gmail)
-    {this.Gmail=Gmail;
+    Stage stage;
+    public BorderPane Canvas;
+    @FXML
+    private VBox portfolioContainer;
+    public void setGmail(String Gmail,Stage stage,BorderPane Canvas)
+    {this.Canvas=Canvas;
+        this.stage=stage;
+        this.Gmail=Gmail;
+    initialize();
     }
 /*
     public void initialize() {
@@ -47,8 +61,7 @@ public class PortfolioController {
     @FXML
     private ListView<HashMap<String, Object>> portfolioListView;
 
-    @FXML
-    private VBox portfolioContainer;
+    
 
     
 
@@ -90,6 +103,21 @@ public class PortfolioController {
 
         // The order now places index before the username
         card.getChildren().addAll(indexLabel, usernameLabel, balanceLabel);
+        card.setOnMouseClicked(event -> { FXMLLoader loader = new FXMLLoader(getClass().getResource("StockPage.fxml"));
+        Parent root;
+            try {
+                root = loader.load();
+                StockPageController mpc=loader.getController();
+                mpc.loadSampleStockData(name);
+                mpc.email=Gmail;
+                mpc.setStage(stage);
+        Canvas.setCenter(root);
+        Canvas.getStylesheets().add(getClass().getResource("stockpage.css").toExternalForm());
+            } catch (IOException ex) {
+                Logger.getLogger(HomePageController.class.getName()).log(Level.SEVERE, null, ex);
+            }
+        
+    });
         return card;
     }
 

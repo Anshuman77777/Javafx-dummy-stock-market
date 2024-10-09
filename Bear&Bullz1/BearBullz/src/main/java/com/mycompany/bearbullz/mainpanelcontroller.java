@@ -66,6 +66,7 @@ public class mainpanelcontroller {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("portfolio.fxml"));
         Parent root= loader.load();
         PortfolioController hpc = loader.getController();
+        hpc.setGmail(Gmail,stage,Canvas);
         //hpc.Gmail=Gmail;
              
      // Ensure the loaded root can be resized by casting it to a Region
