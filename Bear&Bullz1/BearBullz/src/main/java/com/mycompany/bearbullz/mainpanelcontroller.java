@@ -60,9 +60,26 @@ public class mainpanelcontroller {
     Canvas.setCenter(root);
          Canvas.getStylesheets().add(getClass().getResource("leaderboard.css").toExternalForm());
     }
-    public void portfolio(ActionEvent e)
+    public void portfolio(ActionEvent e) throws IOException
     {
-        System.out.println("Home");
+        
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("portfolio.fxml"));
+        Parent root= loader.load();
+        PortfolioController hpc = loader.getController();
+        //hpc.Gmail=Gmail;
+             
+     // Ensure the loaded root can be resized by casting it to a Region
+    if (root instanceof Region) {
+        Region region = (Region) root;
+        
+        // Adjust the size of root to match the current window's size
+        // Optionally, bind to the Canvas's size to make it responsive to resizing
+        region.prefWidthProperty().bind(Canvas.widthProperty());
+        region.prefHeightProperty().bind(Canvas.heightProperty());
+    }
+    // Assuming Canvas is a BorderPane (or another Pane type)
+    Canvas.setCenter(root);
+    Canvas.getStylesheets().add(getClass().getResource("portfolio.css").toExternalForm());
         
     }
     public void leaderboards(ActionEvent e) throws IOException

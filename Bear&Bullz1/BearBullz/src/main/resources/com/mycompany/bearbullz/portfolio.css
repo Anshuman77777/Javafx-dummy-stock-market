@@ -1,0 +1,67 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 1 Oct 2024, 2:47:38 pm
+    Author     : mayur
+*/
+/* Leaderboard Title Styling */
+.leaderboard-title {
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50; /* Darker grey for readability */
+    -fx-alignment: center;
+    -fx-padding: 20 0 40 0; /* Space between title and leaderboard */
+    -fx-text-alignment: center;
+}
+
+/* User Card Styling */
+.user-card {
+    -fx-background-color: #EAECEE; /* Light grey background for user card */
+    -fx-padding: 15;
+    -fx-spacing: 30;
+    -fx-border-color: #7F8C8D;
+    -fx-border-radius: 12;
+    -fx-border-width: 2;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.15), 10, 0, 5, 5); /* Enhanced drop shadow */
+    -fx-background-radius: 12; /* More rounded corners */
+    -fx-margin: 20 0 20 0; /* Space between cards */
+    -fx-transition: 0.3s ease; /* Smooth transition */
+}
+
+.user-card:hover {
+    -fx-background-color: #D5DBDB; /* Hover effect for interactivity */
+    -fx-cursor: hand;
+}
+
+/* Username Styling */
+.username {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2C3E50; /* Dark grey for better contrast */
+}
+
+/* Index Number and Balance Styling */
+.index-number {
+    -fx-font-size: 20px;
+    -fx-text-fill: #566573;
+    -fx-font-weight: bold;
+}
+
+.balance-coins {
+    -fx-font-size: 18px;
+    -fx-text-fill: #7F8C8D;
+}
+
+/* Leaderboard Container Styling */
+#leaderboardContainer {
+    -fx-background-color: transparent;
+    -fx-padding: 50; /* Keeps the content centered */
+    -fx-spacing: 20; /* More space between user cards */
+}
+
+/* Additional Changes */
+.balance-coins {
+    -fx-font-family: 'Arial', sans-serif;
+}
