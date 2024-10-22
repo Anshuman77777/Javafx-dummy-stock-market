@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox prefHeight="600.0" prefWidth="700.0" spacing="10" styleClass="profile-box" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.bearbullz.ProfileController">
+    <Label fx:id="nameLabel" />
+    <Label fx:id="emailLabel" />
+    <Label fx:id="prnLabel" />
+    <Label fx:id="ageLabel" />
+    <Label fx:id="bioLabel" />
+    <Label fx:id="coinsLabel" />
+</VBox>

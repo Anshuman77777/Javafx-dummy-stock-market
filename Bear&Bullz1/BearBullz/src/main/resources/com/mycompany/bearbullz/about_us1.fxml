@@ -30,7 +30,7 @@
                <children>
                   <ImageView fx:id="sunnyImage" fitHeight="138.0" fitWidth="138.0" pickOnBounds="true">
                      <image>
-                        <Image url="@image%202.jpeg" />
+                        <Image url="@sunny.jpeg" />
                      </image>
                      <VBox.margin>
                         <Insets />
@@ -57,7 +57,7 @@
                <children>
                   <ImageView fx:id="anshuImage" fitHeight="138.0" fitWidth="138.0" pickOnBounds="true">
                      <image>
-                        <Image url="@image%203.jpeg" />
+                        <Image url="@anshu.jpeg" />
                      </image>
                      <VBox.margin>
                         <Insets top="-0.0" />
@@ -86,7 +86,7 @@
                <children>
                   <ImageView fx:id="mayurImage" fitHeight="138.0" fitWidth="138.0" pickOnBounds="true">
                      <image>
-                        <Image url="@bmacoffee.png" />
+                        <Image url="@mayur.jpeg" />
                      </image>
                      <VBox.margin>
                         <Insets />
@@ -113,7 +113,7 @@
                <children>
                   <ImageView fx:id="sathakImage" fitHeight="138.0" fitWidth="138.0" pickOnBounds="true">
                      <image>
-                        <Image url="@qr.jpeg" />
+                        <Image url="@sarthak.jpeg" />
                      </image>
                      <VBox.margin>
                         <Insets />
