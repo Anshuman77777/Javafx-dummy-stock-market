@@ -1,5 +1,7 @@
 com\mycompany\bearbullz\leaderboardController.class
+com\mycompany\bearbullz\Profile.class
 com\mycompany\bearbullz\UserAuthDB.class
+com\mycompany\bearbullz\ProfileController.class
 com\mycompany\bearbullz\AboutUsMain.class
 com\mycompany\bearbullz\mainpanelcontroller.class
 com\mycompany\bearbullz\StocksDB.class

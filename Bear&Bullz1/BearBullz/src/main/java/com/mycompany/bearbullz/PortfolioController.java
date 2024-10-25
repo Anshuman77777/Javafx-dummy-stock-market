@@ -43,21 +43,6 @@ public class PortfolioController {
         this.Gmail=Gmail;
     initialize();
     }
-/*
-    public void initialize() {
-        // Fetching data from MongoDB
-        ArrayList<HashMap<String, Object>> users = UsersDB.getAllUsersSortedByBalance();
-        int i = 1;
-        // Creating UI elements for each user
-        for (HashMap a : users) {
-            HBox userCard = createUserCard(a.get("NAME").toString(),
-                                           i++,
-                                           Integer.parseInt(a.get("BALANCE").toString()));
-            leaderboardContainer.getChildren().add(userCard);
-        }
-    }
-
-    */
     @FXML
     private ListView<HashMap<String, Object>> portfolioListView;
 
