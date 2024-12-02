@@ -71,7 +71,7 @@
                         <Insets />
                      </VBox.margin>
                   </Label>
-                  <TextArea fx:id="anshuBio" editable="false" prefHeight="500.0" prefWidth="328.0" scaleShape="false" text="If Creator of NetBeans values his life,he should stay away from me" wrapText="true">
+                  <TextArea fx:id="anshuBio" editable="false" prefHeight="500.0" prefWidth="328.0" scaleShape="false" text="Programmer" wrapText="true">
                      <font>
                         <Font name="Arial Bold Italic" size="12.0" />
                      </font>

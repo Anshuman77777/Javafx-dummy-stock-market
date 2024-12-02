@@ -26,7 +26,7 @@ import org.bson.conversions.Bson;
 public class StocksDB {
     
        public static void main(String[] args) {
-     
+
        
     }
    
