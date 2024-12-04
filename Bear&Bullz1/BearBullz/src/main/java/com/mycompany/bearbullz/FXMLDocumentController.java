@@ -80,6 +80,7 @@ public class FXMLDocumentController implements Initializable {
         mainpanelcontroller mpc = loader.getController();
         
         mpc.setStage(stage);
+        mpc.home(new ActionEvent());
         Scene scene = new Scene(root);
         mpc.setStage(stage);
         mpc.setName(Name,"50000 coins");

@@ -19,12 +19,7 @@ import com.mongodb.client.MongoDatabase;
 public class UserAuthDB {
     public static void main(String args[])
     {
-         boolean isValid = validateUser("Osamabin", "Hello");
-        if (isValid) {
-            System.out.println("User validated successfully.");
-        } else {
-            System.out.println("Invalid GMAIL or PASSWORD.");
-        }
+         
     }
     public static boolean addUser( String gmail,String password ) {
 
@@ -34,10 +29,10 @@ public class UserAuthDB {
          // Create a MongoClient instance
         try (MongoClient mongoClient = MongoClients.create(uri)) {
             // Connect to the database
-            MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); // Replace with your database name
+            MongoDatabase database = mongoClient.getDatabase("BEARBULLZ");
 
             // Access the collection
-            MongoCollection<Document> collection = database.getCollection("USERS"); // Replace with your collection name
+            MongoCollection<Document> collection = database.getCollection("USERS"); 
 
             // Check for a document
             Document query = new Document("GMAIL",gmail);

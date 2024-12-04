@@ -30,9 +30,7 @@ import java.util.Set;
 public class UsersDB {
       public static void main(String[] args) {
         // Example usage
-         System.out.println(getBalance("2"));
-         setBalance("2",500);
-         System.out.println(getBalance("2"));
+       
         
     }
    

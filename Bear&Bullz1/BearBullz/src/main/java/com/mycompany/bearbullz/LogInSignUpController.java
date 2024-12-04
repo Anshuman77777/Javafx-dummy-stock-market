@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import java.io.IOException;
+import javafx.event.ActionEvent;
 import javafx.scene.Scene;
 import javafx.scene.control.TextField;
 import javafx.scene.control.PasswordField;
@@ -37,6 +38,7 @@ if(UserAuthDB.validateUser(email, password))
         mainpanelcontroller mpc=loader.getController();
         mpc.setStage(stage);
         mpc.setGmail(email);
+        mpc.home(new ActionEvent());
         Scene scene=new Scene(root);
         mpc.setStage(stage);
         mpc.setName(UsersDB.getNameByEmail(email),String.valueOf(UsersDB.getBalance(email))+"coins");

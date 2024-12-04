@@ -26,6 +26,11 @@ import org.bson.conversions.Bson;
 public class StocksDB {
     
        public static void main(String[] args) {
+updateStockValues("RELIANCE",2800);
+updateStockValues("NVIDIA",1600);
+updateStockValues("HDFC",2000);
+updateStockValues("TESLA",2100);
+updateStockValues("GOOGLE",2400);
 
        
     }
@@ -36,8 +41,8 @@ public static void  addStockToMongo(String name, double firstValue, double secon
 
     // Create a MongoDB client and connect to the database
     try (MongoClient mongoClient = MongoClients.create(connectionString)) {
-        MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); // Replace with your database name
-            MongoCollection<Document> collection = database.getCollection("STOCKS"); // Replace with your collection name
+        MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); 
+            MongoCollection<Document> collection = database.getCollection("STOCKS");
 
         // Calculate percent change
         double percentChange = ((fifthValue - fourthValue) / fourthValue) * 100;
@@ -61,8 +66,8 @@ public static void updateStockValues(String name, double newValue) {
 
     // Create a MongoDB client and connect to the database
     try (MongoClient mongoClient = MongoClients.create(connectionString)) {
-        MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); // Replace with your database name
-        MongoCollection<Document> collection = database.getCollection("STOCKS"); // Replace with your collection name
+        MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); 
+        MongoCollection<Document> collection = database.getCollection("STOCKS"); 
 
         // Find the stock document by name
         Document stock = collection.find(Filters.eq("NAME", name)).first();
@@ -76,7 +81,7 @@ public static void updateStockValues(String name, double newValue) {
             double previousValue1 = stock.getDouble("VALUE1");
 
             // Calculate the new CHANGE_PERC
-            double newChangePerc = ((newValue - previousValue4) / previousValue4) * 100;
+            double newChangePerc = ((newValue - previousValue5) / previousValue5) * 100;
 
             // Create the updates
             Bson updates = Updates.combine(
@@ -103,8 +108,8 @@ public static HashMap<String, Object> getStockByName(String name) {
 
     // Create a MongoDB client and connect to the database
     try (MongoClient mongoClient = MongoClients.create(connectionString)) {
-        MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); // Replace with your database name
-        MongoCollection<Document> collection = database.getCollection("STOCKS"); // Replace with your collection name
+        MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); 
+        MongoCollection<Document> collection = database.getCollection("STOCKS"); 
 
         // Find the stock document by name
         Document stock = collection.find(Filters.eq("NAME", name)).first();
@@ -129,8 +134,8 @@ public static ArrayList<HashMap<String, Object>> getStocksSortedByChangePerc() {
 
     // Create a MongoDB client and connect to the database
     try (MongoClient mongoClient = MongoClients.create(connectionString)) {
-        MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); // Replace with your database name
-        MongoCollection<Document> collection = database.getCollection("STOCKS"); // Replace with your collection name
+        MongoDatabase database = mongoClient.getDatabase("BEARBULLZ"); 
+        MongoCollection<Document> collection = database.getCollection("STOCKS");
 
         // Retrieve all stock documents
         FindIterable<Document> stocks = collection.find();
